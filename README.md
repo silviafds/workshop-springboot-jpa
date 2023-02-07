@@ -18,6 +18,6 @@ It is possible to add new users, delete and edit customer information. As it is 
 
 ## To execute
 
-1 - Start Spring Boot server
-2 - Open Postman or equivalent
-3 - Use the postman request commands in the file: workshop-commands.postman_collection.json
+1. Start Spring Boot server
+2. Open Postman or equivalent
+3. Use the postman request commands in the file: workshop-commands.postman_collection.json
