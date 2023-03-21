@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "8bf4b993-a6ac-493d-8549-1316285fc0f8",
+		"_postman_id": "55e27057-ddb4-4f46-b32d-07f860edb7e4",
 		"name": "workshop-commands",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -23,15 +23,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/users/1",
+					"raw": "http://localhost:8080/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"users",
-						"1"
+						"users"
 					]
 				}
 			},
@@ -55,15 +54,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/users/1",
+					"raw": "http://localhost:8080/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"users",
-						"1"
+						"users"
 					]
 				}
 			},
@@ -76,7 +74,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{ \r\n \"name\": \"Bob Brown\", \r\n \"email\": \"bob@gmail.com\", \r\n \"phone\": \"977557755\", \r\n \"password\": \"123456\" \r\n} ",
+					"raw": "{ \r\n \"name\": \"Joana Brown\", \r\n \"email\": \"Joana@gmail.com\", \r\n \"phone\": \"977557755\", \r\n \"password\": \"123456\" \r\n} ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -112,7 +110,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/users/3",
+					"raw": "http://localhost:8080/users/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -120,7 +118,7 @@
 					"port": "8080",
 					"path": [
 						"users",
-						"3"
+						"2"
 					]
 				}
 			},
@@ -150,6 +148,123 @@
 					"path": [
 						"users",
 						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/orders/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/orders/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/categories/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categories/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"2"
 					]
 				}
 			},
